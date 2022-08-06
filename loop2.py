@@ -38,5 +38,19 @@ while i < len(name):
         )
     i+=1 # increase the value of i
 
+################################
+# break is used to break the loop when a condition is met
+
+for i in range(11):
+    if i==5:
+        break # this will beak the loop
+    print(i)
+
+for i in range(11):
+    if i==5:
+        continue # means nothing will be executed
+    print(i) # 5 will not be printed
+    
+
 
     
