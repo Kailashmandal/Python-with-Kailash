@@ -24,8 +24,9 @@ str= "O P     EN     CV    "
 ##### replace("what we wnat to replace" , "replacement value" , how many replacement we want in numbers eg-1-2-3) method
 print(str.replace(" " , ""))
 
-str="she is beautiful and she is good dancer"
-print(str.replace(" ","_"))
+str="    she is beautiful and she is good dancer     "
+str= str.replace("beautiful","_")
+#"she_is_beautiful_and_she..."
 
 # find("string we want to find" , start poistion , end position) method is used to find the chacters and substring  starting position
 
